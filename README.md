@@ -1,2 +1,2 @@
-# .NET Lambda GitHub Actions
-This .NET Lambda GitHub Actions repository provides an action that uses the AWS .NET Lambda tools to package and upload a .NET package to a Lambda function.
+# .NET Deploy Lambda
+This .NET Deploy Lambda repository provides an action that uses the AWS .NET Lambda tools to package and upload a .NET package to a Lambda function.
