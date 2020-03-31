@@ -1,5 +1,3 @@
-# DotNet Lambda Deploy Actions
-
 Given:
 
 * `DOTNET_LAMBDA_WORKING_DIR`: .NET project directory
