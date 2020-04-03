@@ -1,4 +1,4 @@
-FROM microsoft/dotnet:3.1-sdk
+FROM mcr.microsoft.com/dotnet/core/sdk:3.1-bionic
 
 LABEL "com.github.actions.name"="dotnet lambda deploy"
 LABEL "com.github.actions.description"="Run dotnet lambda deploy"
@@ -23,4 +23,7 @@ RUN apt-get update && \
 RUN dotnet tool install -g Amazon.Lambda.Tools
 
 COPY entrypoint.sh /entrypoint.sh
+
+RUN chmod +x /entrypoint.sh
+
 ENTRYPOINT ["/entrypoint.sh"]
